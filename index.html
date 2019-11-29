@@ -48,31 +48,7 @@
                      </fieldset>
                 <fieldset class="input-filed">
                     <legend>Personalia:</legend>
-                    <div class="d-flex">
-                        <div class="text-right">
-                            <label for="" id="lable-email">Member Type</label>
-                     </div>
-                    <div class="inputContainer">
-                        <input type="radio" name="individual"value="individual"  id="individual"checked>
-                        <label for="individual" id="lable-individual">Individual</label>
-                        <input type="radio" name="individual" value="coporate" id="coporate">
-                        <label for="coporate" id="lable-coporate">Coporate</label>
-                        <small>*</small>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                    <div class="text-right">
-                            <label for="" id="lable-company" >Company Name</label>
-                            </div>
-                                <div class="inputContainer">
-                            <select type="text" name="company"  id="company" disabled>
-                            <option value="111">111111111111111</option>
-                                <option value="222">111111111111111</option>
-                                <option value="333">111111111111111</option>
-                            </select>
-                            <small>*</small>
-                            </div>
-                        </div>
+                    
                         <div class="d-flex">
                                 <div class="text-right">
                                     <label for="firstName" id="lable-firstName">First Name</label>
@@ -90,8 +66,111 @@
                                     <input type="text" name="lastName" id="lastName">
                                        <small>*</small>
                             </div>
+                        </div>
+                            <div class="d-flex">
+                                    <div class="text-right">
+                                        <label for="state" id="lable-state">State</label>
+                                        </div>
+                                <div class="inputContainer">
+                                    <input type="text" name="state" id="state">
+                                       <small>*</small>
+                            </div>
                                 </div>
+                                <div class="d-flex">
+                                        <div class="text-right">
+                                            <label for="code" id="lable-code">Zip Code</label>
+                                            </div>
+                                    <div class="inputContainer">
+                                        <input type="text" name="code" id="code">
+                                           <small>*</small>
+                                </div>
+                                    </div>
+                                    <div class="d-flex">
+                                            <div class="text-right">
+                                                <label for="phone" id="lable-phone">Phone Number</label>
+                                                </div>
+                                        <div class="inputContainer">
+                                            <input type="phone" name="phone" id="phone">
+                                               <small>*</small>
+                                    </div>
+                                        </div>
                     </fieldset>
+                    <fieldset class="input-filed">
+                            <legend>Payment Information:</legend>
+                            
+                                <div class="d-flex">
+                                        <div class="text-right">
+                                            <label for="startDate" id="lable-startDate">Start Date</label>
+                                            </div>
+                                    <div class="inputContainer">
+                                        <input type="date" name="startDate" id="startDate">
+                                           <small>*</small>
+                                </div>
+                                    </div>
+                                    <div class="d-flex">
+                                            <div class="text-right">
+                                                <label for="cardType" id="lable-cardType">Caredit card type</label>
+                                                </div>
+                                        <div class="inputContainer">
+                                            <select  type="text" name="cardType" id="cardType">
+                                                    <option value="">Choose Your Type</option>
+                                                    <option value="Visa">VISA</option>
+                                                    <option value="Master">MASTER</option>
+                                            </select>
+                                            <small>*</small>
+                                    </div>
+                                </div>
+                                    <div class="d-flex">
+                                            <div class="text-right">
+                                                <label for="cardNumber" id="lable-cardNumber">Credit Card Number</label>
+                                                </div>
+                                        <div class="inputContainer">
+                                            <input type="number" name="cardNumber" id="cardNumber" disabled>
+                                               <small>*</small>
+                                    </div>
+                                        </div>
+                                        <div class="d-flex">
+                                                <div class="text-right">
+                                                    <label for="code" id="lable-code">Expiration day</label>
+                                                    </div>
+                                            <div class="inputContainer">
+                                                    <label for="code" id="lable-code">Month</label>
+                                                    <select  type="number" name="month" id="month">
+                                                            <option value=""></option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
+                                                    </select>
+                                                    <label for="year" id="lable-code">Year</label>
+                                                    <select  type="text" name="year" id="year">
+                                                            <option value=""></option>
+                                                            <option value="2011">2011</option>
+                                                            <option value="2012">2012</option>
+                                                            <option value="2013">2013</option>
+                                                            <option value="2014">2014</option>
+                                                            <option value="2015">2015</option>
+                                                            <option value="2016">2016</option>
+                                                            <option value="2017">2017</option>
+                                                            <option value="2018">2018</option>
+                                                            <option value="2019">2019</option>
+                                                            <option value="2020">2020</option>
+                                                            <option value="2021">2021</option>
+                                                            <option value="2022">2022</option>
+                                                    </select>
+                                                   <small>*</small>
+                                        </div>
+                                            </div>
+                                          
+                            </fieldset>
                     <fieldset class="input-filed">
                             <legend>Submit your Membership:</legend>
                             <div class="d-flex">

@@ -54,3 +54,6 @@ legend{
         color: blue;
         font-weight: bolder;
 }
+#year, #month {
+    width: 75px;
+}
