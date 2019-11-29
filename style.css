@@ -1,0 +1,56 @@
+
+#form{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid gray;
+}
+input,select {
+    display: block;
+    width: 150px;
+}
+.d-flex{
+    display: flex;
+}
+.text-right{
+    width: 25%;
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+.inputContainer{
+    width: 70%;
+    margin: 5px;
+    display: flex;
+}
+small, .error{
+    color: red;
+    font-size: smaller;
+}
+.flex-end{
+    justify-content: space-around;
+}
+[type="button"],[type="submit"],[type="reset"]{
+    width: 100px;
+    margin: 0px 5px;
+}
+.containerInput{
+        border:  1px solid gray;
+        margin: 10px;
+        padding: 10px;
+}
+[type="radio"]{
+        display: inline;
+        width: fit-content;
+}
+.input-filed{
+        margin: 10px;
+        text-align: left;
+        border: 4px double gray;
+}
+legend{
+        color: blue;
+        font-weight: bolder;
+}

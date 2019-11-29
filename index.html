@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+        <script src="index.js" defer></script>
+
+        <title>Document</title>
+</head>
+<body>
+
+            <main id="main">
+                <form id="form">
+                 <h1>Membership Form</h1>
+                 <fieldset class="input-filed">
+                        <legend>Registration Information:</legend>
+                        <div class="d-flex">
+                            <div class="text-right">
+                                <label for="email" id="lable-email">Email Address</label>
+                            </div>
+                        <div class="inputContainer">
+                            <input type="email" name="email" >
+                            <small>*</small>
+                        </div>
+                        </div>
+                        <div class="d-flex">
+                        <div class="text-right">
+                                <label for="pass" id="lable-pass" >Password</label>
+                         </div>
+                         <div class="inputContainer">
+                                <input type="password" name="pass" id="pass">
+                                <small>*</small>
+                         </div>
+                         </div>
+                         <div class="d-flex">
+                                <div class="text-right">
+                                        <label for="repass" id="lable-re-pass" >Verify Password</label>
+                                 </div>
+                                 <div class="inputContainer">
+                                        <input type="password" name="re_pass" id="repass">
+                                        <small>*</small>
+                                 </div>
+                                 </div>
+                     </fieldset>
+                <fieldset class="input-filed">
+                    <legend>Personalia:</legend>
+                    <div class="d-flex">
+                        <div class="text-right">
+                            <label for="" id="lable-email">Member Type</label>
+                     </div>
+                    <div class="inputContainer">
+                        <input type="radio" name="individual"value="individual"  id="individual"checked>
+                        <label for="individual" id="lable-individual">Individual</label>
+                        <input type="radio" name="individual" value="coporate" id="coporate">
+                        <label for="coporate" id="lable-coporate">Coporate</label>
+                        <small>*</small>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                    <div class="text-right">
+                            <label for="" id="lable-company" >Company Name</label>
+                            </div>
+                                <div class="inputContainer">
+                            <select type="text" name="company"  id="company" disabled>
+                            <option value="111">111111111111111</option>
+                                <option value="222">111111111111111</option>
+                                <option value="333">111111111111111</option>
+                            </select>
+                            <small>*</small>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                                <div class="text-right">
+                                    <label for="firstName" id="lable-firstName">First Name</label>
+                                    </div>
+                            <div class="inputContainer">
+                                <input type="text" name="firstName" id="firstName">
+                                   <small>*</small>
+                        </div>
+                            </div>
+                            <div class="d-flex">
+                                    <div class="text-right">
+                                        <label for="lastName" id="lable-lastName">Last Name</label>
+                                        </div>
+                                <div class="inputContainer">
+                                    <input type="text" name="lastName" id="lastName">
+                                       <small>*</small>
+                            </div>
+                                </div>
+                    </fieldset>
+                    <fieldset class="input-filed">
+                            <legend>Submit your Membership:</legend>
+                            <div class="d-flex">
+                               <input type="submit" value="submit">
+                               <input type="reset" value="Reret">
+                             </div>
+                            </fieldset>
+ 
+        
+        
+                </form>
+            </main>
+</body>
+</html>
